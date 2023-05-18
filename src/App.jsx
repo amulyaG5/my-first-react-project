@@ -1,16 +1,28 @@
+
+import './App.css'
+import Navigation from './components/Navigation';
+import HeroSection from './components/Hero';
+
+
+
+
+
 const App = () => {
 
     return (
         <div>
-            <nav>
-                <div className="logo"></div>
 
+            <Navigation />
+            <HeroSection />
 
-            </nav>
         </div>
 
 
+
     )
+
+
+
 };
 
 export default App;
